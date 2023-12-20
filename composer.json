@@ -1,0 +1,50 @@
+{
+    "name": "tulparstudyo/cms-login",
+    "description": "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.",
+    "license": "MIT",
+    "type": "tcms",
+    "version": "1.01",
+    "keywords": [
+        "tulparstudyo",
+        "cms-login",
+        "laravel"
+    ],
+    "authors": [
+        {
+            "name": "Ahmet Hamdi",
+            "email": "bayrakahmethamdi@gmail.com",
+            "homepage": "https://tulparstudyo.com",
+            "role": "Author"
+        }
+    ],
+    "homepage": "https://gtulparstudyo.com",
+    "support": {
+        "issues": "https://github.com/tulparstudyo/cms-login/issues",
+        "source": "https://github.com/tulparstudyo/cms-login",
+        "docs": "https://github.com/tulparstudyo/cms-login/docs",
+        "rss": "https://github.com/tulparstudyo/cms-login/rss",
+        "security": "https://github.com/tulparstudyo/cms-login/security"
+    },
+    "require": {
+        "php": ">=7.3"
+    },
+    "require-dev": {
+    },
+    "conflict": {
+        "phpunit/phpunit": "<8.0"
+    },
+    "autoload": {
+        "psr-4": {
+        },
+        "files": []
+    },
+    "autoload-dev": {
+        "psr-4": {
+        },
+        "files": []
+    },
+    "config": {
+    },
+    "scripts": {
+    }
+}
