@@ -16,7 +16,6 @@ function cms_home_localize(){
     $path = storage_path('tcms/'.HOME_FOLDER.'/lang');
     \Lang::addNamespace(HOME_FOLDER, $path);
 }
-
 TCMS()->addAction('routing', 'cms_home_routing', 1);
 function cms_home_routing(){
     Route::group([
