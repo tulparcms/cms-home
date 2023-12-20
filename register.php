@@ -2,8 +2,8 @@
 /**
  * bu eklenti CMS için
  */
-defined('HOME_FOLDER') or define('HOME_FOLDER', 'tulparstudyo/cms-home-main');
-defined('HOME_LANG') or define('HOME_LANG', 'tulparstudyo/cms-home-main::localize.');
+defined('HOME_FOLDER') or define('HOME_FOLDER', 'tulparcms/cms-home-main');
+defined('HOME_LANG') or define('HOME_LANG', 'tulparcms/cms-home-main::localize.');
 
 if(is_file(__DIR__.'/model/TcmsHome.php')){
     include_once(__DIR__.'/model/TcmsHome.php');
